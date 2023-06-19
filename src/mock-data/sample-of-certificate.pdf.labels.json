@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json",
+	"document": "sample-of-certificate.pdf",
+	"labels": [
+		{
+			"label": "commercial general liability",
+			"value": [
+				{
+					"page": 1,
+					"text": "selected",
+					"boundingBoxes": [
+						[
+							0.08916470588235294,
+							0.3175909090909091,
+							0.1064,
+							0.3175909090909091,
+							0.1064,
+							0.3307272727272727,
+							0.08916470588235294,
+							0.3307272727272727
+						]
+					]
+				}
+			]
+		}
+	]
+}
